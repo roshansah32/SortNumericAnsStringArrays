@@ -1,0 +1,26 @@
+//Write a Java program to sort a numeric array and a string array
+
+
+package ArraysProblem;
+
+import java.util.Arrays;
+
+public class ToSortNumericAndStringArrays {
+
+	public static void main(String[] args) {
+		int[] arrays1= {
+				1,9,3,2,5,7,6,4
+		};
+        String[] arrays2={
+        	"Roshan","Anita","kalinga","Krishna","Harshnayana","Pinky","Rinky","krithi"
+        };
+        System.out.println("Orginal Numeric Arrays are : "+Arrays.toString(arrays1));
+        Arrays.sort(arrays1);
+        System.out.println("sorted arrays are : "+Arrays.toString(arrays1));
+        
+        System.out.println("Orginal string are : "+Arrays.toString(arrays2));
+        Arrays.sort(arrays2);
+        System.out.println("sorted string are : "+Arrays.toString(arrays2));
+	}
+
+}
